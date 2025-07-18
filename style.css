@@ -1,108 +1,147 @@
-*{margin: 0;
-padding:0 ;
-box-sizing: border-box;}
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+ }
 
-#container-1{
-      
-    width: 600px;
-    background-color: #002062;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* top: 532px;
-    left: 105px; */
+ .container {
+      background-color: #002062;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      width: 100%;
+ }
 
-}
-.logo{
-    width: 400px;
-height: 70px;
-/* top: 50px;
+ #container-1 {
+      background-color: #002062;
+      width: 600px;
+      height: 600px;
+      opacity: 1;
+      /* top: 532px;
+left: 105px; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+ }
+
+ .logo {
+      width: 400px;
+      height: 70px;
+      opacity: 1;
+      /* top: 50px;
 left: 89px; */
-opacity: 1;
-}
+ }
 
-.log-in p{
-width: 350px;
-height: 10px;
-/* top: 350px; */
-opacity: 1;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 400;
-font-size: 30px;
-line-height: 20px;
-letter-spacing: 0%;
-color: white;
+ .log-in p {
+      width: 350px;
+      height: 10px;
+      opacity: 1;
+      /* top: 350px; */
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 20px;
+      letter-spacing: 0px;
+      color: white;
+ }
 
-
-}
-.log-in{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom:20px ;
-    height:40px ;
-    width:300px ;
-    margin-top:50px ;
-}
-
-.input-box{
-    padding:20px ;
-    display: flex;
-    flex-direction: column;
-
-}
-.input-1{
-    width: 300px;
-height: 35px;
-border-radius: 10px;
-opacity: 1;
-/* top: 330px;
+ .input-1 {
+      width: 300px;
+      height: 35px;
+      border-radius: 10px;
+      opacity: 1;
+      /* top: 330px;
 left: 115px; */
-border-width: 1px solid #4671C6A6;
-color: black;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 108%;
-letter-spacing: 0%;
+      border-width: 0.3px;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-style: ☞;
+      font-size: 16px;
+      line-height: 108%;
+      letter-spacing: 0%;
 
-}
-.input-2{
-    width: 300px;
-height: 35px;
-border-radius: 10px;
-opacity: 1;
-/* top: 330px;
+
+ }
+
+ .input-box {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+ }
+
+ .input-2 {
+      width: 300px;
+      height: 35px;
+      border-radius: 10px;
+      opacity: 1;
+      /* top: 330px;
 left: 115px; */
-border-width: 0.3px;
-color: black;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 108%;
-letter-spacing: 0%;
-margin-top: 10px;
-border: 1px solid #4671C6A6
+      border-width: 0.3px;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 108%;
+      letter-spacing: 0%;
+      margin-top: 10px;
+ }
+
+ .forgot-password {
+      color: white;
+      display: flex;
+      align-items: flex-end;
+      justify-content: end;
+      padding-right: 30px;
+      margin-top: 10px;
+ }
+
+ .sign-in img {
+      width: 315px;
+      height: 250px;
+      opacity: 1;
+      /* top: 532px;
+left: 105px; */
 
 
-}
-.forgot-password a{
-    color: white;
-display: flex;
-align-items: flex-end;
-justify-content: end;
-margin-right: 30px;
-margin-top: 10px;
-}
+ }
+
+ .log-in {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      width: 300px;
+ }
+
+ /* .box-2 {
+      height: 800px;
+      width: 800px;
+      background-color: pink;
+      margin-inline-start: 600x;
+      margin-left: 600px;
+      /* display: flex;
+      align-items: center;
+      align-content: center;
+justify-content: center; */ */
+
+
  
-.group-img{
-    idth: 315px;
-height: 250px;
-opacity: 1;   
-/* top: 532px;
-left: 40px; */
-opacity: 1;
+ /* .final{ height: 600px; width: 600px; margin-top: 400px;      display: flex;justify-content: center; align-items: center;background-color: blueviolet;} */
 
-}
-
+ /* .box-2 img {
+      height: 80%;
+      width: 600px;
+      position: absolute;
+      left: 600px;
+      bottom: 0px;
+      margin-bottom: 20px;
+      border: 3px solid yellow
+ } */
